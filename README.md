@@ -36,3 +36,5 @@ I.) Use deep learning model to obtain more accurate dense labels for these image
 # TODO
 - Finish readme
 - Update notebooks to include markdown comments
+- Add publication
+- More visualizations :)
