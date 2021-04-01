@@ -32,3 +32,7 @@ I.) Use deep learning model to obtain more accurate dense labels for these image
 - skimage
 - matplotlib
 - fast_slic
+
+# TODO
+- Finish readme
+- Update notebooks to include markdown comments
