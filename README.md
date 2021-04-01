@@ -9,18 +9,26 @@ Although SfM has become widely adopted by ecologists, deep learning presents a s
 
 
 
-# Workflow  
+# Workflow:    
 
 A.) Extract still images from video footage;  
-B.) Import into `Patch Extractor` or similiar tool (e.g., CPCe or CoralNet);  
+B.) Import into `Patch Extractor` or similiar tool (e.g., [CPCe](https://hcas.nova.edu/tools-and-resources/cpce/index.html) or [CoralNet](https://coralnet.ucsd.edu/));  
 C.) Extract patches of each class category of interest;    
 D.) Train a patch-based image classifier (e.g., convolutional neural network);  
 E.) Use trained classifier to automatically add additional sparse labels to each image;  
-F.) Pass sparse labels and corresponding images to Fast-MSS;    
+F.) Pass sparse labels and corresponding images to [Fast-MSS](https://github.com/JordanMakesMaps/Fast-Multilevel-Superpixel-Segmentation);    
 G.) Convert sparse to dense labels automatically;    
 
-Optional:  
-H.) Train a deep learning semantic segmenation algorithm on dense labels;  
+*Optional:*  
+H.) Train a deep learning [semantic segmenation algorithm](https://github.com/qubvel/segmentation_models) on dense labels;  
 I.) Use deep learning model to obtain more accurate dense labels for these images, and those collected from similar habitats, thus skipping steps A - H.  
 
+![getting_dense_labels](Figures/getting_dense_labels.png)
 
+# Requirements:  
+- cv2
+- numpy
+- pandas
+- skimage
+- matplotlib
+- fast_slic
