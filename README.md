@@ -12,7 +12,7 @@ Although SfM has become widely adopted by ecologists, deep learning presents a s
 # Workflow:    
 
 A.) Extract still images from video footage;  
-B.) Import into `Patch Extractor` or similiar tool (e.g., [CPCe](https://hcas.nova.edu/tools-and-resources/cpce/index.html) or [CoralNet](https://coralnet.ucsd.edu/));  
+B.) Import into [`Patch Extractor`](https://github.com/JordanMakesMaps/3D-Model-Classification/releases) or similiar tool (e.g., [CPCe](https://hcas.nova.edu/tools-and-resources/cpce/index.html) or [CoralNet](https://coralnet.ucsd.edu/));  
 C.) Extract patches of each class category of interest;    
 D.) Train a patch-based image classifier (e.g., convolutional neural network);  
 E.) Use trained classifier to automatically add additional sparse labels to each image;  
