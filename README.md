@@ -5,11 +5,13 @@ We present a novel method that can efficiently provide semantic labels of functi
 Although SfM has become widely adopted by ecologists, deep learning presents a steep learning curve for many. Because of this we provide a comprehensive workflow with detailed instructions and open-sourced our programming code to assist others in replicating our methodology. Our method provides researchers with the ability to assess precise changes in 3-D community composition of reef habitats in an entirely novel way, providing more insight into changes in ecological paradigms, such as those that occur during coral-algae shifts.  
   
   
- ![side-by-side](Figures/side_by_side.png)
+ ![side-by-side](Figures/3d-classification.png)
 
 
 
 # Workflow:    
+
+### Obataining Dense Labels
 
 A.) Extract still images from video footage;  
 B.) Import into [`Patch Extractor`](https://github.com/JordanMakesMaps/3D-Model-Classification/releases) or similiar tool (e.g., [CPCe](https://hcas.nova.edu/tools-and-resources/cpce/index.html) or [CoralNet](https://coralnet.ucsd.edu/));  
@@ -24,6 +26,12 @@ H.) Train a deep learning [semantic segmenation algorithm](https://github.com/qu
 I.) Use deep learning model to obtain more accurate dense labels for these images, and those collected from similar habitats, thus skipping steps A - H.  
 
 ![getting_dense_labels](Figures/getting_dense_labels.png)
+
+
+### Classifying 3-D Models
+
+
+
 
 # Requirements:  
 - cv2
