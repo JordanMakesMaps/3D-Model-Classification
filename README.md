@@ -9,7 +9,7 @@ We present a novel method that can efficiently provide semantic labels of functi
 Although SfM has become widely adopted by ecologists, deep learning presents a steep learning curve for many. Because of this we provide a comprehensive workflow with detailed instructions and open-sourced our programming code to assist others in replicating our methodology. Our method provides researchers with the ability to assess precise changes in 3-D community composition of reef habitats in an entirely novel way, providing more insight into changes in ecological paradigms, such as those that occur during coral-algae shifts.  
 
 
-![side-by-side](Figures/multiview.png)
+![side-by-side](Figures/3d-classification.png)
 
 
 # Workflow:    
@@ -39,7 +39,6 @@ The second half of the workflow involves reconstructing a 3-D model using Struct
 
 ![3d-model-classification-workflow](Figures/3d_model_classification_workflow.png)
 
-
 #### Notes:
 - When creating the classified textured mesh using `build texture`, if `blending` is not disabled, then it is possible that the RGB color component values representing class categories will be averaged together. The ramifications of this is that values representing class categories go from being discrete `[0, 1, 2, 3..]` to continuous, which is not ideal. With the dense point cloud, each point's RGB color component can be corrected using the `classify points` tool. 
 
@@ -51,7 +50,7 @@ The second half of the workflow involves reconstructing a 3-D model using Struct
 - pandas
 - skimage
 - matplotlib
-- fast_slic
+- [fast_slic](https://github.com/Algy/fast-slic)
 
 # TODO
 - Finish readme
