@@ -16,7 +16,7 @@ Although SfM has become widely adopted by ecologists, deep learning presents a s
 
 ### Obataining Dense Labels
 
-The first half of the workflow involves obtaining dense (i.e., pixel-wise) labels for each of the images used in the 3-D model reconstruction. Outlined below are the steps used in our paper:
+The first half of the workflow involves obtaining dense (i.e., pixel-wise) labels for each of the images used in the 3-D model reconstruction. This half was done entirely in python using the code that can be found in the `Notebooks` directory. Outlined below are the steps used in our paper:
 
 A.) Extract still images from video footage;  
 B.) Import into [`Patch Extractor`](https://github.com/JordanMakesMaps/3D-Model-Classification/releases) or similiar tool (e.g., [CPCe](https://hcas.nova.edu/tools-and-resources/cpce/index.html) or [CoralNet](https://coralnet.ucsd.edu/));  
