@@ -5,7 +5,7 @@ We present a novel method that can efficiently provide semantic labels of functi
 Although SfM has become widely adopted by ecologists, deep learning presents a steep learning curve for many. Because of this we provide a comprehensive workflow with detailed instructions and open-sourced our programming code to assist others in replicating our methodology. Our method provides researchers with the ability to assess precise changes in 3-D community composition of reef habitats in an entirely novel way, providing more insight into changes in ecological paradigms, such as those that occur during coral-algae shifts.  
   
   
- ![side-by-side](Figures/3d-classification.png)
+ ![side-by-side](Figures/side-by-side.png)
 
 
 
