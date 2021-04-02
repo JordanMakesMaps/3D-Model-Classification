@@ -53,7 +53,7 @@ The second half of the workflow involves reconstructing a 3-D model using Struct
 - [fast_slic](https://github.com/Algy/fast-slic)
 
 # TODO
-- Finish readme
+- ~Finish readme~
 - Update notebooks to include markdown comments
 - Add publication
 - More visualizations :)
