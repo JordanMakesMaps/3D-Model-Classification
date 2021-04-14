@@ -55,5 +55,3 @@ The second half of the workflow involves reconstructing a 3-D model using Struct
 # TODO
 - ~Finish readme~
 - Update notebooks to include markdown comments
-- Add publication
-- More visualizations :)
