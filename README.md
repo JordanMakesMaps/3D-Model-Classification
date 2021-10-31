@@ -55,6 +55,7 @@ Pierce, J., Butler, M. J., Rzhanov, Y., Lowell, K., &amp; Dijkstra, J. A. (2021)
 - skimage
 - matplotlib
 - [fast_slic](https://github.com/Algy/fast-slic)
+- [fast-mss](https://github.com/JordanMakesMaps/Fast-Multilevel-Superpixel-Segmentation) 
 
 # TODO
 - ~Finish readme~
