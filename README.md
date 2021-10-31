@@ -58,5 +58,5 @@ Pierce, J., Butler, M. J., Rzhanov, Y., Lowell, K., &amp; Dijkstra, J. A. (2021)
 
 # TODO
 - ~Finish readme~
-- Update notebooks to include markdown comments (in progress)
+- ~Update notebooks to include markdown comments~
 - Provide python code for editing vertices' colors to discrete class categories
