@@ -4,7 +4,7 @@
 ![side-by-side](Figures/side_by_side.png)
 
 
-We present a method to efficiently provide semantic labels of functional groups to 3D reconstructed models created from commonly used SfM software (i.e., Agisoft Metashape) using Fully Convolutional Networks (FCNs). Unlike other methods, ours involves creating dense labels for each of the images used in the 3-D reconstruction and then reuses the projection matrices created during the SfM process to project semantic labels onto either the point cloud or mesh to create fully classified versions.  
+We present a method to efficiently provide semantic labels of functional groups to 3D reconstructed models created from commonly used SfM software (i.e., Agisoft Metashape) using Fully Convolutional Networks (FCNs). Unlike other methods, ours involves creating dense labels for each of the images used in the 3-D reconstruction and then reuses the projection matrices created during the SfM process to project semantic labels onto either the point cloud or mesh to create fully classified versions (link to paper [here](https://www.frontiersin.org/articles/10.3389/fmars.2021.706674/full)).  
 
 Although SfM has become widely adopted by ecologists, deep learning presents a steep learning curve for many. Because of this we provide a comprehensive workflow with detailed instructions and open-sourced our programming code to assist others in replicating our methodology. Our method provides researchers with the ability to assess precise changes in 3-D community composition of reef habitats in an entirely novel way, providing more insight into changes in ecological paradigms, such as those that occur during coral-algae shifts.  
 
@@ -42,7 +42,11 @@ The second half of the workflow involves reconstructing a 3-D model using Struct
 #### Notes:
 - When creating the classified textured mesh using `build texture`, if `blending` is not disabled, then it is possible that the RGB color component values representing class categories will be averaged together. The ramifications of this is that values representing class categories go from being discrete `[0, 1, 2, 3..]` to continuous, which is not ideal for analysis. With the dense point cloud, each point's RGB color component can be corrected using the `classify points` tool. 
 
+#### Citation:
 
+`
+Pierce, J., Butler, M. J., Rzhanov, Y., Lowell, K., &amp; Dijkstra, J. A. (2021). Classifying 3-D models of coral reefs using structure-from-motion and multi-view semantic segmentation. Frontiers in Marine Science, 8. https://doi.org/10.3389/fmars.2021.706674 
+`
 
 # Requirements:  
 - cv2
