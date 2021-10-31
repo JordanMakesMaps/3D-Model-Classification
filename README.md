@@ -8,6 +8,8 @@ We present a method to efficiently provide semantic labels of functional groups 
 
 Although SfM has become widely adopted by ecologists, deep learning presents a steep learning curve for many. Because of this we provide a comprehensive workflow with detailed instructions and open-sourced our programming code to assist others in replicating our methodology. Our method provides researchers with the ability to assess precise changes in 3-D community composition of reef habitats in an entirely novel way, providing more insight into changes in ecological paradigms, such as those that occur during coral-algae shifts.  
 
+This repository contains the code used for workflow; classification of the 3D models is done in Agisoft Metashape.
+
 
 ![side-by-side](Figures/3d-classification.png)
 
